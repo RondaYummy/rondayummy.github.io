@@ -1,0 +1,630 @@
+h1 {
+  font-family: "Montserat";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bd {
+  border: 1px solid red;
+}
+
+.container {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  min-height: 700px;
+  background: url("../img/headerBackground.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 40px 20px 0;
+}
+
+header .container {
+  padding: 0 10px;
+}
+
+header a {
+  color: #fff;
+}
+
+nav {
+  margin-bottom: 147px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 36px;
+}
+
+nav .logo {
+  text-transform: uppercase;
+  line-height: 37px;
+}
+
+nav h1 {
+  font-size: 20px;
+}
+
+.authorization {
+  margin-right: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.authorization a {
+  font-family: "Montserat";
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.authorization a:first-child {
+  margin-right: 20px;
+}
+
+.authorization a:last-child {
+  border-radius: 40px;
+  border: 2px solid #fff;
+  padding: 0 16px;
+  line-height: 32px;
+}
+
+.headerTitle {
+  text-align: center;
+}
+
+.headerTitle h1 {
+  margin-bottom: 26px;
+  font-size: 52px;
+  line-height: 63px;
+  text-transform: uppercase;
+}
+
+.headerTitle p {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 44px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.headerTitle a {
+  padding: 10px 20px;
+  margin-right: -4px;
+  font-size: 14px;
+  font-family: 'Montserat';
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #FF4C4A;
+  border-radius: 40px;
+  -webkit-transition: background .2s, color .3s, -webkit-box-shadow .2s;
+  transition: background .2s, color .3s, -webkit-box-shadow .2s;
+  transition: box-shadow .2s, background .2s, color .3s;
+  transition: box-shadow .2s, background .2s, color .3s, -webkit-box-shadow .2s;
+}
+
+.headerTitle a:hover {
+  background-color: #fff;
+  color: #FF4C4A;
+  -webkit-box-shadow: 0 0 5px #424242;
+          box-shadow: 0 0 5px #424242;
+}
+
+.work {
+  padding-top: 42px;
+  margin-bottom: 32px;
+}
+
+.work h1 {
+  color: #444444;
+  margin-bottom: 38px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.howWork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+}
+
+.workCard {
+  padding: 26px 26px 21px;
+  margin-bottom: 20px;
+  max-width: 32%;
+  height: 400px;
+  background: center center;
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 4px;
+  color: #fff;
+  -webkit-transition: background-size 1s, -webkit-box-shadow .2s;
+  transition: background-size 1s, -webkit-box-shadow .2s;
+  transition: background-size 1s, box-shadow .2s;
+  transition: background-size 1s, box-shadow .2s, -webkit-box-shadow .2s;
+}
+
+.workCard:hover {
+  background-size: 105% 105%;
+  -webkit-box-shadow: 0 0 10px #9b9b9b;
+          box-shadow: 0 0 10px #9b9b9b;
+}
+
+.workCard a {
+  background-color: #FF4C4A;
+  color: #fff;
+  padding: 4px 13px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: "Montserat";
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.workCard h2 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: 'Montserat';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.workCard p {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.workCard:first-child {
+  background-image: url("../img/Step1.jpg");
+  background-size: cover;
+}
+
+.workCard:nth-child(2) {
+  background-image: url("../img/Step2.jpg");
+  background-size: cover;
+}
+
+.workCard:nth-child(3) {
+  background-image: url("../img/Step3.jpg");
+  background-size: cover;
+}
+
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 53px;
+  padding-top: 40px;
+}
+
+.partners h1 {
+  font-size: 26px;
+  margin-bottom: 23px;
+}
+
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.person-card {
+  width: 234px;
+  height: auto;
+  padding: 15px 7px;
+  text-align: center;
+  margin-bottom: 15px;
+  -webkit-transform: box-shadow 0.3s;
+          transform: box-shadow 0.3s;
+}
+
+.person-card:hover {
+  -webkit-box-shadow: 0 0 5px 0px #ccc;
+          box-shadow: 0 0 5px 0px #ccc;
+}
+
+.person-card img {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 120px;
+  height: 120px;
+}
+
+.person-card h2 {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 21px;
+  font-family: 'Montserat';
+  font-weight: 700;
+  color: #444444;
+}
+
+.person-card p {
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.showAllPerson {
+  display: block;
+  min-width: 1px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  margin-left: 3px;
+  text-align: center;
+  border: 2px solid #FF4E50;
+  border-radius: 40px;
+  color: #FF4E50;
+  font-family: 'Montserat';
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-transition: -webkit-box-shadow 0.4s, -webkit-transform 0.2s;
+  transition: -webkit-box-shadow 0.4s, -webkit-transform 0.2s;
+  transition: box-shadow 0.4s, transform 0.2s;
+  transition: box-shadow 0.4s, transform 0.2s, -webkit-box-shadow 0.4s, -webkit-transform 0.2s;
+}
+
+.showAllPerson:hover {
+  -webkit-box-shadow: 0 0 5px 0px #3d3d3d;
+          box-shadow: 0 0 5px 0px #3d3d3d;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.ideas {
+  padding-top: 29px;
+  margin-bottom: 40px;
+}
+
+.ideas h1 {
+  color: #444444;
+  margin-bottom: 38px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.ideas-list {
+  padding: 0 10px;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-row .ideas-list__item {
+  height: 310px;
+  margin-bottom: 20px;
+}
+
+.flex-row .ideas-list__item:last-child {
+  padding-right: 0;
+}
+
+.flex-row .ideas-list__item:first-child {
+  padding-left: 0;
+}
+
+.flex-row .ideas-list__item_w30 {
+  width: 32%;
+}
+
+.flex-row .ideas-list__item_w70 {
+  width: calc(100% - 34%);
+}
+
+.flex-row .ideas-list__item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 310px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Montserat';
+  font-weight: 700;
+  font-size: 22px;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+.flex-row .ideas-list__item a:hover {
+  -webkit-box-shadow: 0 0 10px 0px #7a7a7a;
+          box-shadow: 0 0 10px 0px #7a7a7a;
+}
+
+.flex-row .ideas-list__item .sport_link {
+  background: url("../img/Sport.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.flex-row .ideas-list__item .health_link {
+  background: url("../img/Healath.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.flex-row .ideas-list__item .extreeme_link {
+  background: url("../img/Extreme.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.flex-row .ideas-list__item .games_link {
+  background: url("../img/Games.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.flex-row .ideas-list__item .culture_link {
+  background: url("../img/Culture.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.flex-row .ideas-list__item .enjoyment_link {
+  background: url("../img/enjoyment.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.flex-row .ideas-list__item .treveling_link {
+  background: url("../img/Treveling.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.search {
+  margin-bottom: 100px;
+  padding-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search h1 {
+  text-align: center;
+  margin-bottom: 54px;
+  color: #444444;
+  font-size: 26px;
+  text-align: center;
+}
+
+.search p {
+  text-align: center;
+  color: #444444;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.search form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3px;
+  width: 484px;
+}
+
+.search input {
+  height: 40px;
+  width: 300px;
+  padding-left: 13px;
+  padding-top: 4px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #D4D4D4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  border-radius: 3px;
+  color: #444;
+}
+
+.search input::-webkit-input-placeholder {
+  color: #999;
+  font-family: 'Roboto';
+  font-size: 300;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.search input:-ms-input-placeholder {
+  color: #999;
+  font-family: 'Roboto';
+  font-size: 300;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.search input::-ms-input-placeholder {
+  color: #999;
+  font-family: 'Roboto';
+  font-size: 300;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.search input::placeholder {
+  color: #999;
+  font-family: 'Roboto';
+  font-size: 300;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.search-button {
+  display: block;
+  min-width: 1px;
+  height: 40px;
+  line-height: 40px;
+  outline: none;
+  border: none;
+  padding: 0px 30px;
+  font-size: 14px;
+  font-family: 'Montserat';
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #FF4C4A;
+  border-radius: 40px;
+  -webkit-transition: background .2s, color .3s, -webkit-box-shadow .2s;
+  transition: background .2s, color .3s, -webkit-box-shadow .2s;
+  transition: box-shadow .2s, background .2s, color .3s;
+  transition: box-shadow .2s, background .2s, color .3s, -webkit-box-shadow .2s;
+  color: #fff;
+}
+
+.search-button:hover {
+  background-color: #fff;
+  color: #FF4C4A;
+  -webkit-box-shadow: 0 0 5px #424242;
+          box-shadow: 0 0 5px #424242;
+}
+
+footer {
+  border-top: 2px solid #FF4E50;
+  padding: 40px 0 20px 0;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 941px;
+  max-width: 100%;
+}
+
+footer .container h1 {
+  margin-right: 13%;
+}
+
+footer .container h1 a {
+  color: #FF4E50;
+  font-family: 'Montserat';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer ul {
+  margin-right: 140px;
+}
+
+footer ul li:first-child {
+  margin-bottom: 11px;
+  font-weight: 700;
+  color: #444;
+  font-family: 'Montserat';
+  font-size: 14px;
+}
+
+footer ul li a {
+  color: #999;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+footer .designed-logo {
+  margin-left: 16%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer .designed-logo span {
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  line-height: 12px;
+  font-family: 'Montserat';
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-right: -5px;
+}
+
+footer .designed-logo img {
+  width: 110px;
+  height: 24px;
+}
+/*# sourceMappingURL=style.css.map */

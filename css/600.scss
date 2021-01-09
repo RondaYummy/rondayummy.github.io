@@ -1,0 +1,100 @@
+@media only screen and (max-width:600px) {
+    .work{
+        .howWork{
+            flex-direction: column;
+            align-items: center;
+            .workCard {
+                max-width: 80%;
+                height: 240px;
+                padding: 25px 10px 16px;
+                background-position: 0px center;
+        
+                h2 {
+                    font-size: 20px;
+                    line-height: 17px;
+                    margin-top: 30px;
+                    margin-bottom: 26px;
+                }
+            }
+        }
+        
+    }
+    .flex-row {
+        flex-wrap: wrap;
+    }
+
+    .flex-row .ideas-list__item_w30,
+    .flex-row .ideas-list__item_w70 {
+        width: 100%;
+    }
+
+    .flex-row .ideas-list__item {
+        padding: 0;
+    }
+
+    .person {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .person-card {
+        max-width: 45%;
+
+    }
+    .search{
+        form{
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            input{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    footer{
+        padding-top: 23px;
+        .container{
+            flex-direction: column;
+            align-items: center;
+            h1{
+                margin: 0;
+                padding: 0;
+                margin-bottom: 12px;
+                width: 100%;
+                text-align: center;
+            }
+            ul:nth-child(2){
+                padding: 0;
+                margin: 0;
+                width: 82%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                li:first-child{
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 0;
+                }
+                li{
+                    display: inline-block;
+                    line-height: 20px;
+                    padding: 0 5px;
+                }
+            }
+            ul:nth-child(3){
+                padding: 0;
+                margin: 0;
+                margin-bottom: 10px;
+                width: 77%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                li:first-child{
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

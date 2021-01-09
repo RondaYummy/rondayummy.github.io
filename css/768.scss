@@ -1,0 +1,160 @@
+@media only screen and (max-width:768px) {
+    .authorization {
+        margin: 0;
+    }
+
+    header .container {
+        padding: 0 29px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .howWork {
+        padding: 0;
+    }
+    .work{
+        padding-top: 47px;
+        h1{
+            font-size: 22px;
+        }
+        .workCard {
+            max-width: 31.7%;
+            padding: 25px 21px 16px;
+            background-position: 0px center;
+    
+            h2 {
+                font-size: 24px;
+                line-height: 17px;
+                margin-top: 44px;
+                margin-bottom: 26px;
+            }
+        }
+    }
+
+    
+
+    .partners {
+       padding-top: 44px;
+       margin-bottom: 50px;
+        h1{
+            font-size: 22px;
+        }
+        .person {
+            flex-wrap: wrap;
+            width: 510px;
+            max-width: 100%;
+            margin-bottom: 15px;
+            .person-card {
+                width: 50%;
+                margin-bottom: 10px;
+            }
+        }
+        .order {
+            order: 2;
+        }
+    }
+   
+    .ideas {
+        padding-top: 39px;
+        h1 {
+            font-size: 22px;
+            margin-bottom: 36px;
+        }
+        .ideas-list {
+            padding: 0;
+        }
+    }
+    .ideas-list__item_w30 {
+        width: 31.5%;
+    }
+    .ideas-list__item_w70 {
+        width: calc(100% - 34.2%);
+    }
+        .ideas-list__item {
+            margin-bottom: 20px;
+            .sport_link {
+                background: url('../img/768/Sport.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            .health_link {
+                background: url('../img/768/Healath.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            .extreeme_link {
+                background: url('../img/768/Extreme.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            .games_link {
+                background: url('../img/768/Games.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            .culture_link {
+                background: url('../img/768/Culture.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            .enjoyment_link {
+                background: url('../img/768/enjoyment.jpg') center center no-repeat;
+                background-size: cover;
+            }
+
+            .treveling_link {
+                background: url('../img/768/Treveleng.jpg') no-repeat center 0;
+                background-size: cover;
+            }
+
+        }
+    
+
+    .search {
+        padding-top: 36px;
+        h1{
+            font-size: 22px;
+        }
+    }
+
+    footer {
+        padding-top: 40px;
+        .container{
+           padding: 0 40px;
+           justify-content: space-between;
+           h1{
+               margin-right: 32px;
+           }
+           ul:nth-child(2){
+               padding-left: 2px;
+           }
+           ul:nth-child(3){
+            padding-right: 47px;
+        }
+        }
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .work{
+        padding-top: 47px;
+        h1{
+            font-size: 22px;
+        }
+        .workCard {
+            max-width: 31.7%;
+            height: 300px;
+            padding: 25px 10px 16px;
+            background-position: 0px center;
+    
+            h2 {
+                font-size: 20px;
+                line-height: 17px;
+                margin-top: 30px;
+                margin-bottom: 26px;
+            }
+        }
+    }
+}

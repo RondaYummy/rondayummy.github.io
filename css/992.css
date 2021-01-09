@@ -1,0 +1,20 @@
+@media only screen and (max-width: 992px) {
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+  }
+  footer .container h1,
+  footer .container ul {
+    margin: 0;
+  }
+  footer .designed-logo {
+    margin: 0;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=992.css.map */

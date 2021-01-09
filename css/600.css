@@ -1,0 +1,116 @@
+@media only screen and (max-width: 600px) {
+  .work .howWork {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .work .howWork .workCard {
+    max-width: 80%;
+    height: 240px;
+    padding: 25px 10px 16px;
+    background-position: 0px center;
+  }
+  .work .howWork .workCard h2 {
+    font-size: 20px;
+    line-height: 17px;
+    margin-top: 30px;
+    margin-bottom: 26px;
+  }
+  .flex-row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .flex-row .ideas-list__item_w30,
+  .flex-row .ideas-list__item_w70 {
+    width: 100%;
+  }
+  .flex-row .ideas-list__item {
+    padding: 0;
+  }
+  .person {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .person-card {
+    max-width: 45%;
+  }
+  .search form {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .search form input {
+    margin-bottom: 30px;
+  }
+  footer {
+    padding-top: 23px;
+  }
+  footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .container h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+    width: 100%;
+    text-align: center;
+  }
+  footer .container ul:nth-child(2) {
+    padding: 0;
+    margin: 0;
+    width: 82%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .container ul:nth-child(2) li:first-child {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  footer .container ul:nth-child(2) li {
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 5px;
+  }
+  footer .container ul:nth-child(3) {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 77%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .container ul:nth-child(3) li:first-child {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=600.css.map */
