@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+  background-color: lightgray;
+  border-radius: 30px;
+  height: 50px;
+  width: 950px;
+  line-height: 47px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+p:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 9px rgb(0, 0, 0);
+  font-size: 40px;
+}
+p {
+  color: #000;
+  text-decoration: none;
+}
+body {
+  background: #fff;
+  -webkit-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+.start_open {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  padding-top: 10px;
+}
+
+.main .container {
+  width: 950px;
+  margin: 0px auto;
+  display: none;
+}
+.main .ds-block {
+  display: block;
+}
+.main .container .screen {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow-y: hidden;
+  box-shadow: 0 0 15px 0 black;
+}
+
+.main .container .row {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.main .container .row li {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 4px;
+  padding: 0 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 0 black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main .container .row .tab {
+  width: 100px;
+}
+
+.main .container .row .backspase {
+  width: 100px;
+}
+
+.main .container .row .activeKey {
+  background: #848484;
+  box-shadow: 0 0 4px 0 black;
+  color: yellow;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.main .container .row .capsLock {
+  width: 110px;
+}
+
+.main .container .row .shift {
+  width: 140px;
+}
+
+.main .container .row .space {
+  width: 100%;
+  height: 45px;
+}
+
+/*# sourceMappingURL=style.css.map */
