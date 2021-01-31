@@ -1,0 +1,700 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+header {
+  /* width: 1440px; */
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 0.4px;
+  line-height: 7px;
+}
+.header-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-slider {
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/philip-martin-5aGUyCW_PJw-unsplash.png");
+}
+.right-slider {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  padding: 113px 109px 151px 107px;
+}
+.header-tittle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.date-slider {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 7px;
+}
+.LIFESTYLE {
+  color: white;
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 0 0 0 0px;
+}
+.tittle-right-slider {
+  color: white;
+  margin-top: 70px;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+.tex-right-slider {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 31px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+.read-more {
+  color: white;
+  font-size: 12px;
+  width: 198px;
+  height: 55px;
+  background-color: black;
+  border: 1px solid white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+.read-more1 {
+  margin-top: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-items: left;
+}
+.container {
+  width: 941px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.all-FEATURED {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-FEATURED {
+  display: flex;
+  justify-content: left;
+  flex-flow: column;
+  margin-right: 27px;
+}
+.three-FEATURED {
+  display: flex;
+  justify-content: left;
+  flex-flow: column;
+}
+.all-FEATURED .date-slider {
+  /* font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500; */
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.all-FEATURED .LIFESTYLE {
+  /* font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500; */
+  font-size: 12px;
+  /* line-height: 18px; */
+  color: #000000;
+  /* margin-left: 380px; */
+}
+.info-block-fatured {
+  display: flex;
+}
+.block-fatured-text {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f1d;
+  width: 557px;
+  height: 72px;
+  margin: 34px auto 0;
+  padding-right: 70px;
+  font-weight: bold;
+}
+.block-fatured-moretext {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  width: 557px;
+  height: 54px;
+  color: #1f1f1d;
+  margin: 19px auto 0;
+  padding-right: 20px;
+  padding-left: -20px;
+}
+.three-blocks-fatured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 63px;
+}
+.block-fatured-1 {
+  margin-right: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.block-fatured-2 {
+  margin-right: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.block-fatured-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.date-slider2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 6px;
+  color: #1f1f1d;
+}
+.LIFESTYLE2 {
+  margin-left: 180px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.names-fatured {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: -45px;
+  margin-top: 29px;
+}
+.names-fatured1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: -225px;
+  margin-top: 29px;
+}
+.button-see-all {
+  width: 238px;
+  height: 42px;
+  margin: 63px auto;
+  border: 1px solid black;
+  background-color: #303030;
+  color: white;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+}
+.button-see-all1 {
+  width: 238px;
+  height: 42px;
+  margin: 63px auto;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 20px;
+}
+.issue-blocks {
+  /* width: 1143px; */
+  width: 73%;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 11px auto;
+}
+.issue-block-1 {
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/coffe.png");
+}
+.issue-block-2 {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  padding: 123px 139px 0 116px;
+}
+.issue-image {
+  height: 51px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  line-height: 50.83px;
+}
+.interviews-all-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interbiews-block1 {
+  margin-right: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.interbiews-block2 {
+  margin-right: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.interbiews-block3 {
+  margin-right: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.date-slider3 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 6px;
+  color: #000000;
+  margin-right: 164.5px;
+}
+.names-fatured11 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: -35px;
+  margin-top: 29px;
+}
+.names-fatured-111 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: -230px;
+  margin-top: 29px;
+}
+footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  height: 163px;
+  background-color: black;
+  margin: 0 auto;
+}
+.group-2 {
+  width: 142px;
+  height: 27px;
+  margin-top: 55px;
+}
+.designer-by {
+  width: 102px;
+  height: 18px;
+  margin-top: 38px;
+}
+.menu-off {
+  margin-left: -40px;
+}
+.menu-off1 {
+  margin-left: -29px;
+}
+.menu-off-klick {
+  position: absolute;
+  width: 21px;
+  height: 22px;
+  margin: 0 1250px 0 0;
+  cursor: pointer;
+}
+
+.menu-all-block {
+  position: absolute;
+  left: -50px;
+  width: 344px;
+  height: 359px;
+  display: block;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  cursor: pointer;
+  padding: 52px 0 55px 65px;
+  display: none;
+}
+.menu-link {
+  display: flex;
+  flex-flow: column;
+  margin-top: 30px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px lightslategray;
+}
+.menu-off-klick:hover .menu-all-block {
+  display: block;
+}
+.menu-off-klick1 {
+  display: none;
+}
+
+@media screen and (max-width: 1240px) {
+  .menu-off-klick1 {
+    display: block;
+    margin-left: auto;
+  }
+  .menu-off-klick {
+    display: none;
+  }
+  .header-center-suffiks {
+    align-items: center;
+  }
+  header {
+    /* width: 1240px; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 0.4px;
+    line-height: 7px;
+  }
+  footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 1440px; */
+    width: 70%;
+    height: 163px;
+    background-color: black;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .all-FEATURED {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .issue-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .interviews-all-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .three-blocks-fatured {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .all-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .left-slider {
+    margin-right: 20px;
+    width: 72%;
+    height: 50%;
+    background-image: url("../images/philip-martin-5aGUyCW_PJw-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .right-slider {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 72%;
+    height: 50%;
+  }
+  .button-see-all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-see-all1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .issue-block-1 {
+    width: 100%;
+    height: 50%;
+  }
+  .issue-block-2 {
+    width: 100%;
+    height: 50%;
+  }
+  .issue-image {
+    text-align: center;
+  }
+  .menu-off-klick1 {
+    position: absolute;
+    width: 21px;
+    height: 22px;
+    margin: 0 450px 0 0;
+    cursor: pointer;
+  }
+  .menu-all-block1 {
+    position: absolute;
+    left: -50px;
+    width: 344px;
+    height: 359px;
+    display: block;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    cursor: pointer;
+    padding: 52px 0 55px 65px;
+    display: none;
+  }
+  .menu-link1 {
+    display: flex;
+    flex-flow: column;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px lightslategray;
+  }
+  .menu-off-klick1:hover .menu-all-block1 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .all-FEATURED {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .issue-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .interviews-all-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .three-blocks-fatured {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .all-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  body {
+    width: 96%;
+  }
+  .left-slider {
+    width: 70%;
+    height: 50%;
+    background-image: url("../images/philip-martin-5aGUyCW_PJw-unsplash.png");
+    margin-left: 100px;
+  }
+  .right-slider {
+    width: 70%;
+    height: 50%;
+    margin-left: 100px;
+  }
+  .all-FEATURED{
+    width: 70%;
+    margin-left: 100px;
+  }
+  .header-center{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .three-FEATURED{
+ 
+    margin-left: -10px;
+  }
+
+  .button-see-all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-see-all1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .issue-block-1 {
+    width: 360px;
+    height: 50%;
+    margin-right: 30px;
+  }
+  /* .issue-block-2 {
+    margin-right: 30px;
+    width: 360px;
+    height: 50%;
+    position: relative;
+  }
+  .button-see-all1 {
+    z-index: 5;
+    position: absolute;
+    top: 140px;
+    right: 45px;
+  }
+  .issue-image {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+  }
+  .menu-off-klick1 {
+    position: absolute;
+    width: 21px;
+    height: 22px;
+    margin: 0 450px 0 0;
+    cursor: pointer;
+  }
+  .menu-all-block1 {
+    position: absolute;
+    left: -50px;
+    width: 344px;
+    height: 359px;
+    display: block;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    cursor: pointer;
+    padding: 52px 0 55px 65px;
+    display: none;
+  } */
+  .menu-link1 {
+    display: flex;
+    flex-flow: column;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px lightslategray;
+  }
+  .menu-off-klick1:hover .menu-all-block1 {
+    display: block;
+  }
+  footer {
+    width: 370%;
+    margin: 0 190px;
+  }
+}
