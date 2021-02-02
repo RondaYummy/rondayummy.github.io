@@ -289,12 +289,12 @@ body .profil_block .user .pictures img {
   }
   body .profil_block {
     height: 500px;
-    width: 262px;
+    width: 100%;
     display: none;
   }
   body .profil_block .footer_profile {
     height: 52px;
-    width: 262px;
+    width: 100%;
   }
   body .profil_block .footer_profile .fa-facebook {
     font-size: 25px;
@@ -314,7 +314,7 @@ body .profil_block .user .pictures img {
   body .profil_block .user {
     position: relative;
     height: 100px;
-    width: 262px;
+    width: 100%;
   }
   body .profil_block .user .pictures {
     position: absolute;
