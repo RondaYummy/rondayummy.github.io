@@ -51,11 +51,10 @@
          .footer_profile {
             height: 52px;
             width: 100%;
-
             .fa-facebook {
                font-size: 25px;
-               line-height: 51px;
-               margin-left: 80px;
+               line-height: 50px;
+               // margin-left: -100px;
             }
          }
 
@@ -81,7 +80,7 @@
             .pictures {
                position: absolute;
                top: 40px;
-               left: 80px;
+               left: 90px;
                width: 100px;
                height: 100px;
 
