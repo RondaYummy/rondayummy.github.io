@@ -1,5 +1,4 @@
-function submitForm(event) {
-
+function submitForm() {
   document.querySelector(".create").style.display = "none";
   document.querySelector(".profil_block").style.display = "block";
   let profilInfo = document.forms[0];

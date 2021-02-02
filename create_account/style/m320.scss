@@ -4,7 +4,7 @@
          .create {
             .all_forms {
                height: 700px;
-               width: 300px;
+               width: 100%;
                padding: 9px;
                border-bottom-left-radius: 25px;
                border-bottom-right-radius: 25px;
@@ -14,11 +14,11 @@
 
                input[type=text],
                input[type=email] {
-                  width: 262px;
+                  width: 96%;
                }
 
                select {
-                  width: 262px;
+                  width: 96%;
                   font-size: 15px;
                   padding-top: 8px;
 
@@ -36,7 +36,7 @@
                      height: 35px;
                      font-size: 25px;
                      line-height: 35px;
-                     width: 262px;
+                     width: 96%;
                   }
                }
             }
