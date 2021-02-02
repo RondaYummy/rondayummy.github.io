@@ -1,0 +1,66 @@
+@media screen and (min-width: 320px) {
+  body main .create .all_forms {
+    height: 700px;
+    width: 280px;
+    padding: 9px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  body main .create form input[type=text],
+  body main .create form input[type=email] {
+    width: 262px;
+  }
+  body main .create form select {
+    width: 262px;
+    font-size: 15px;
+    padding-top: 8px;
+  }
+  body main .create form .submit input[type=checkbox] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  body main .create form .submit button[type=submit] {
+    height: 35px;
+    font-size: 25px;
+    line-height: 35px;
+    width: 262px;
+  }
+  body .profil_block {
+    height: 500px;
+    width: 262px;
+    display: none;
+  }
+  body .profil_block .footer_profile {
+    height: 52px;
+    width: 262px;
+  }
+  body .profil_block .footer_profile .fa-facebook {
+    font-size: 25px;
+    line-height: 51px;
+    margin-left: 80px;
+  }
+  body .profil_block .infoUser {
+    height: 400px;
+    font-size: 20px;
+  }
+  body .profil_block .infoUser .button {
+    font-size: 15px;
+  }
+  body .profil_block .infoUser .names {
+    margin-top: 50px;
+  }
+  body .profil_block .user {
+    position: relative;
+    height: 100px;
+    width: 262px;
+  }
+  body .profil_block .user .pictures {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=m320.css.map */

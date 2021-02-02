@@ -1,0 +1,93 @@
+@media screen and (min-width: 320px) {
+   body {
+      main {
+         .create {
+            .all_forms {
+               height: 700px;
+               width: 280px;
+               padding: 9px;
+               border-bottom-left-radius: 25px;
+               border-bottom-right-radius: 25px;
+            }
+
+            form {
+
+               input[type=text],
+               input[type=email] {
+                  width: 262px;
+               }
+
+               select {
+                  width: 262px;
+                  font-size: 15px;
+                  padding-top: 8px;
+
+               }
+
+               .submit {
+
+                  input[type=checkbox] {
+                     margin-top: 10px;
+                     margin-bottom: 10px;
+                     font-size: 10px;
+                  }
+
+                  button[type=submit] {
+                     height: 35px;
+                     font-size: 25px;
+                     line-height: 35px;
+                     width: 262px;
+                  }
+               }
+            }
+         }
+      }
+
+      .profil_block {
+         height: 500px;
+         width: 262px;
+         display: none;
+
+         .footer_profile {
+            height: 52px;
+            width: 262px;
+
+            .fa-facebook {
+               font-size: 25px;
+               line-height: 51px;
+               margin-left: 80px;
+            }
+         }
+
+         .infoUser {
+            height: 400px;
+            font-size: 20px;
+
+
+            .button {
+               font-size: 15px;
+            }
+
+            .names {
+               margin-top: 50px;
+            }
+         }
+
+         .user {
+            position: relative;
+            height: 100px;
+            width: 262px;
+
+            .pictures {
+               position: absolute;
+               top: 40px;
+               left: 80px;
+               width: 100px;
+               height: 100px;
+
+            }
+         }
+      }
+   }
+
+}

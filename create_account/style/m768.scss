@@ -1,0 +1,170 @@
+@media screen and (min-width: 768px) {
+   body {
+      main {
+         @include displayCenter;
+
+         .create {
+            background-color: rgb(0, 190, 0);
+            @include displayCenter;
+            border: 2px solid lightslategray;
+            border-radius: 27px;
+
+            .all_forms {
+               height: 610px;
+               width: 600px;
+               background-color: white;
+               border-bottom-left-radius: 25px;
+               border-bottom-right-radius: 25px;
+               padding: 27px;
+            }
+
+            h1 {
+               color: white;
+               text-shadow: 0 1px 3px black
+            }
+
+            form {
+
+               h2 {
+                  text-shadow: 0 1px 1px black;
+               }
+
+               input[type=text],
+               input[type=email] {
+                  @include moreInputs;
+                  @include displayCenter;
+               }
+
+               input[type=text]:focus,
+               input[type=email]:focus,
+               select:focus {
+                  box-shadow: 0 0 10px cyan;
+               }
+
+               input[type=radio] {
+                  margin-top: 25px;
+                  font-size: 20px
+               }
+
+               select {
+                  @include moreInputs;
+                  font-size: 18px;
+                  padding-top: 8px;
+               }
+
+               .submit {
+                  @include displayCenter;
+                  align-items: flex-start;
+
+                  input[type=checkbox] {
+                     margin-top: 20px;
+                     margin-bottom: 20px;
+                  }
+
+                  button[type="submit"] {
+                     width: 550px;
+                     height: 35px;
+                     @include moreInputs;
+                     background-color: rgb(0, 190, 0);
+                     font-size: 25px;
+                     color: white;
+                     line-height: 35px;
+                     text-shadow: 0 1px 3px black;
+                  }
+
+                  button[type="submit"]:hover {
+                     background-color: rgb(2, 161, 2);
+                     color: crimson;
+                     font-weight: bold;
+                     text-shadow: 1px 1px 4px white;
+                     box-shadow: 1px 1px 6px 0 black;
+                  }
+               }
+            }
+         }
+      }
+
+      .profil_block {
+         height: 400px;
+         width: 500px;
+         border-radius: 5px;
+         @include displayCenter;
+         display: none;
+
+         .footer_profile {
+            height: 52px;
+            background-color: cadetblue;
+            width: 500px;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+            border-top: 1px solid yellow;
+
+            .fa-facebook {
+               font-size: 35px;
+               line-height: 51px;
+               color: rgb(0, 0, 151);
+               margin-left: 150px;
+            }
+         }
+
+         .infoUser {
+            height: 400px;
+            background-color: lightgray;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+            border: 1px solid lightslategray;
+            @include displayCenter;
+            text-shadow: 1px 1px 1px white;
+            font-size: 20px;
+
+            .button {
+               background-color: white;
+               color: white;
+               height: 40px;
+               width: 100px;
+               outline: none;
+               border: 1px solid blanchedalmond;
+               border-radius: 5px;
+               font-weight: bold;
+               background-color: lightsteelblue;
+               box-shadow: 0 1px 6px black;
+               text-shadow: 2px 1px 2px black;
+               font-size: 20px;
+               margin-top: 25px;
+               margin-bottom: 25px;
+            }
+
+
+            .names {
+               margin-top: 50px;
+            }
+         }
+
+         .user {
+            position: relative;
+            height: 100px;
+            width: 500px;
+            background-color: rgb(0, 190, 0);
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+
+            .pictures {
+               position: absolute;
+               top: 40px;
+               left: 190px;
+               border-radius: 50%;
+               border: 10px solid white;
+               background-color: white;
+               width: 100px;
+               height: 100px;
+
+               img {
+                  height: 100%;
+                  width: 100%;
+
+               }
+            }
+         }
+      }
+   }
+}
