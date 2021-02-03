@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Smart Energy</title>
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <main>
+<section>
+<p>
+   <h1>Визначення споживання електроенергії одним електроприладом:</h1>
+   <b style="font-size:30px;"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> W = Р * t * T </b>
+   <div class="formulaDiv">  
+ <span><i class="fa fa-lightbulb-o" aria-hidden="true"></i> <b>W</b> – величина споживаної ел-енергії</span>
+<span><i class="fa fa-lightbulb-o" aria-hidden="true"></i> <b>Р</b> –    потужність ел-приладу</span>
+<span><i class="fa fa-lightbulb-o" aria-hidden="true"></i> <b>t</b> – середній час роботи ел-приладу в день</span>
+<span><i class="fa fa-lightbulb-o" aria-hidden="true"></i> <b>T</b> – скільки діб використовується</span>
+</div>
+</p>
+<form onsubmit="onSubmit()">
+   <div>Введіть к-ть приладів:  <input type="number" step="any" value="1" name="inputNum" placeholder="Введіть к-ть приладів"></div>
+   <input type="number" step="any" name="inputP" placeholder="Введіть Число «P»">
+   <input type="number" step="any" name="inputt" placeholder="Введіть Число «t»">
+   <input type="number" step="any" name="inputT" placeholder="Введіть Число «T»">
+   <div class="submitForm">
+   <input type="submit" value="Порахувати">
+</div>
+<div class="result">
+   <input type="text" name="inputResult" id="inputResult" placeholder="Результат">
+</div>
+</form>
+</section>
+
+<section>
+   <form onsubmit="onSubmitTranslate()" class="translateBt">
+      <br>
+      <h2>Перевести <b>Вт</b> у <b>кВт</b>:</h2> 
+      <input type="number" name="Bt" id="" placeholder="Введіть «Вт»" >
+      <input type="submit" value="Перевести 🠪">
+      <input type="text" name="" id="resultTranslate" placeholder="Отримайте «кВт»">
+   </form>
+</section>
+   </main>
+   <br>
+   <footer>
+      <h1>Copyright © 2021 Галевич А.М.</h1>
+   </footer>
+   <script src="script.js"></script>
+   <script src="https://use.fontawesome.com/53cb29dc96.js"></script>
+</body>
+</html>
