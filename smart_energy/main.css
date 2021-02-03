@@ -82,6 +82,7 @@ body main section form .submitForm input[type='submit'] {
   background-color: aqua;
   outline: none;
   border-radius: 15px;
+  height: 40px;
 }
 
 body main section form .submitForm input[type='submit']:hover {
@@ -91,7 +92,7 @@ body main section form .submitForm input[type='submit']:hover {
 
 body main section form .submitForm input[type='reset'] {
   margin-left: -50px;
-  line-height: 25px;
+  line-height: 27px;
   border-radius: 50%;
   height: 25px;
   width: 25px;
@@ -147,6 +148,12 @@ body section .translateBt input[type="submit"] {
   background-color: aqua;
   outline: none;
   border-radius: 15px;
+  height: 40px;
+}
+
+body section .translateBt input[type='submit']:hover {
+  color: aqua;
+  background-color: black;
 }
 
 body section .translateBt input[type="text"] {
@@ -160,12 +167,32 @@ body section .translateBt input[type="text"] {
   border: 1px solid lightslategray;
   -webkit-box-shadow: 1px 1px 8px black;
           box-shadow: 1px 1px 8px black;
+  margin-left: 25px;
 }
 
 body section .translateBt input:focus {
   text-shadow: 1px 0px 2px black;
   -webkit-box-shadow: 0px 0px 10px yellow;
           box-shadow: 0px 0px 10px yellow;
+}
+
+body section .translateBt input[type='reset'] {
+  margin-left: -50px;
+  line-height: 25px;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  outline: none;
+  border: 1px solid lightslategray;
+  font-weight: bold;
+}
+
+body section .translateBt input[type='reset']:hover {
+  scale: 1.5;
+  background-color: lime;
+  background-color: black;
+  color: red;
 }
 
 body footer {

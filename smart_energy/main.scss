@@ -66,15 +66,17 @@ body {
                   background-color: aqua;
                   outline: none;
                   border-radius: 15px;
+                  height: 40px;
                }
+
                input[type='submit']:hover {
-color: aqua;
-background-color: black;
+                  color: aqua;
+                  background-color: black;
                }
-            
+
                input[type='reset'] {
                   margin-left: -50px;
-                  line-height: 25px;
+                  line-height: 27px;
                   border-radius: 50%;
                   height: 25px;
                   width: 25px;
@@ -83,6 +85,7 @@ background-color: black;
                   border: 1px solid lightslategray;
                   font-weight: bold;
                }
+
                input[type='reset']:hover {
                   scale: 1.5;
                   background-color: lime;
@@ -115,14 +118,38 @@ background-color: black;
             background-color: aqua;
             outline: none;
             border-radius: 15px;
+            height: 40px;
          }
-
+         input[type='submit']:hover {
+            color: aqua;
+            background-color: black;
+         }
          input[type="text"] {
             @include inputType;
+            margin-left: 25px;
          }
 
          input:focus {
             @include focusInput;
+         }
+
+         input[type='reset'] {
+            margin-left: -50px;
+            line-height: 25px;
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+            background-color: red;
+            outline: none;
+            border: 1px solid lightslategray;
+            font-weight: bold;
+         }
+
+         input[type='reset']:hover {
+            scale: 1.5;
+            background-color: lime;
+            background-color: black;
+            color: red;
          }
       }
    }
