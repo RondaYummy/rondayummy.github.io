@@ -1,0 +1,75 @@
+body {
+   padding-left: 100px;
+   // background-image: url('32.png');
+   // background-repeat: no-repeat;
+   // background-size: cover;
+   background-color: #ffc406;
+}
+
+main {
+   // width: 1400px;
+   display: flex;
+   justify-content: center;
+
+   img {
+      width: 300px;
+      height: 300px;
+      transition-property: opacity;
+      transition-duration: 0.7s;
+   }
+
+   li {
+      list-style: none;
+      font-size: 50px;
+      margin-right: 90px;
+
+      a {
+         text-decoration: none;
+         display: block;
+         height: 200px;
+         width: 200px;
+         // margin-top: 120px;
+         margin-bottom: 120px;
+         font-weight: bold;
+         display: flex;
+         align-items: flex-end;
+         justify-content: flex-end;
+         color: lime;
+         text-shadow: 2px 2px 5px brown;
+         cursor: pointer;
+         transition-duration: 0.7s;
+         transition-property: all;
+      }
+
+      a:hover {
+         color: blueviolet;
+         background-image: url('klipartz.com.png');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+      }
+   }
+
+
+   .right-nav-bar {
+      display: flex;
+      flex-flow: column;
+
+      div {
+         background-color: black;
+      }
+
+      img {
+         opacity: 0.2;
+         cursor: pointer;
+         border: 2px solid white;
+         margin: 5px;
+      }
+
+   }
+
+   .left-nav-bar {
+      display: flex;
+      justify-content: end;
+   }
+}

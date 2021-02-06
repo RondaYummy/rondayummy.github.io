@@ -1,0 +1,92 @@
+body {
+  padding-left: 100px;
+  background-color: #ffc406;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main img {
+  width: 300px;
+  height: 300px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+main li {
+  list-style: none;
+  font-size: 50px;
+  margin-right: 90px;
+}
+
+main li a {
+  text-decoration: none;
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 120px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: lime;
+  text-shadow: 2px 2px 5px brown;
+  cursor: pointer;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+main li a:hover {
+  color: blueviolet;
+  background-image: url("klipartz.com.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main .right-nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+main .right-nav-bar div {
+  background-color: black;
+}
+
+main .right-nav-bar img {
+  opacity: 0.2;
+  cursor: pointer;
+  border: 2px solid white;
+  margin: 5px;
+}
+
+main .left-nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+/*# sourceMappingURL=menu.css.map */
