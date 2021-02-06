@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halevych A.M.</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="first show">
+  
+<div class="block top-block">          
+<p> 1. Можна редагувати текст.</p>
+<p> 2. Можна змінювати стиль HTML-тегами.</p>
+<p> 3. Можна змінювати шрифт.</p>
+<p> 4. Можна змінювати розмір шрифту.</p>
+<p> 5. Можна створювати списки та таблиці.</p>
+<p> 6. Можна змінювати колір шрифту.</p>
+<p>7. Можна змінювати колір фону.</p>
+</div>  
+            <div class="center-block">
+                <input type="button" value="Edit" class="btn-edit">
+                <input type="button" value="Style" class="btn-style">
+            </div>
+            <div class="block bottom-block">
+                <div class="edit-block">
+                    <textarea class="edit-area"></textarea>
+                    <input type="button" value="add" class="btn-add">
+                    <input type="button" value="save" class="btn-save">
+                </div>
+                <div class="style-block">   
+                    <form>
+                        <div class="form-size">
+                            <h2>Font size:</h2>
+                            <label><input type="radio" name="size" value="12px"><span>12px</span></label>
+                            <label><input type="radio" name="size" value="14px" checked><span>14p</label>
+                            <label><input type="radio" name="size" value="16px"><span>16px</span></label>
+                            <label><input type="radio" name="size" value="18px"><span>18px</span></label>
+                            <label><input type="radio" name="size" value="20px"><span>20px</span></label>
+                        </div>
+                        <div class="form-family">
+                            <h2>Font family:</h2>
+                            <select id="fontFamily">
+                                <option value="" selected disabled>Choose option</option>
+                                <option value="cursive">Cursive</option>
+                                <option value="fantasy">Fantasy</option>
+                                <option value="monospace">Monospace</option>
+                                <option value="sans-serif">Sans-Serif</option>
+                            </select>
+                        </div>
+                        <div class="form-color">
+                            <h2>Colors:</h2>
+                            <input type="button" value="Color of text" class="btn-text-color">
+                            <input type="button" value="Background color" class="btn-bg-color">
+                            <div class="colors hide">
+                                <div class="color-box">Brown</div>
+                                <div class="color-box">Green</div>
+                                <div class="color-box">Blue</div>
+                                <div class="color-box">Yellow</div>
+                                <div class="color-box">Pink</div>
+                                <div class="color-box">Gray</div>
+                                <div class="color-box wh">Black</div>
+                                <div class="color-box">White</div>
+                                <div class="color-box">D-pink</div>
+                            </div>
+                        </div>
+                        <div class="form-style">
+                            <label><input type="checkbox" class="boldTexts"><span>Bold Text</span></label>
+                            <label><input type="checkbox" class="CursiveTexts"><span>Cursive Text</span></label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="block">
+                <h2>Select what you want to create:</h2>
+                <form>
+                   <label><input type="radio" name="choose" class="tables" value="block"><span>Create Table</span></label>
+                   <label><input type="radio" name="choose" class="chosee" value="block"><span>Create List</span></label>
+                </form>
+                <div class="create-list">
+                    <form name="form-list">
+                        <input type="text" name="count">
+                        <select name="type" class="selecteds">
+                            <option value="circle">circle</option>
+                            <option value="disc">disc</option>
+                            <option value="square">square</option>
+                        </select>
+                        <input type="button" value="Create List" name="create" class="btn-create-list">
+                    </form>
+                </div>
+                <div class="create-table">
+                    <form>
+                        <label><span>Count TR: </span><input type="number" name="countTr" id="countTr" placeholder="Count TR:"></label>
+                        <label><span>Count TD:</span> <input type="number" name="countTd" id="countTd" placeholder="Count TD:"></label>
+                    </form>
+                    <h1>Add style to your table:</h1>
+<form>
+    <label><span>Width  of  TD : </span> <input type="number" name="WidthTd" id="WidthTd" placeholder="Width of TD:"></label>
+    <label><span>Heidth of TD:</span> <input type="number" name="HeidthTd" id="HeidthTd" placeholder="Heidth of TD:"></label>
+</form>
+<div class="border">
+    <label><span>Width of border:</span> <input type="number" name="WidthBorder" id="WidthBorder" placeholder="Width of border:"></label>
+    <span>Type of border:</span><select name="TypeBorder" id="TypeBorder">
+        <option value="solid">Solid</option>
+        <option value="dotted">Dotted</option>
+        <option value="dashed">Dashed</option>
+        <option value="double">Double</option>
+    </select>
+
+
+    <span>Color of border:</span><select name="ColorBorder" id="ColorBorder">
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="purpl">Purpl</option>
+    </select>
+</div>
+<input type="button" value="CreateTable" class="createTables" id="createButton">
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
