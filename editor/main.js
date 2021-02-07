@@ -114,9 +114,9 @@ getS("#createButton").addEventListener("click", () => {
 
   getS(".edit-area").value += `<table>`;
 
-  for (let i = 0; i <= countTr; i++) {
+  for (let i = 0; i <= countTr-1; i++) {
     getS(".edit-area").value += `<tr>`;
-    for (let w = 0; w <= countTd; w++) {
+    for (let w = 0; w <= countTd-1; w++) {
       getS(".edit-area").value += `<td style="width:${WidthTd}px; heidth:${HeidthTd}px; border: ${WidthBorder}px ${TypeBorder} ${ColorBorder}">${w + 1}</td>`;
     }
     getS(".edit-area").value += `</tr>`;
